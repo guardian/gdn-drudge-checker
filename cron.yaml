@@ -1,0 +1,9 @@
+cron:
+
+- description: check drudge for guardian.co.uk
+  url: /seo/monitor_drudge
+  schedule: every 2 minutes
+
+- description: email out spottings
+  url: /seo/email_drudge
+  schedule: every 1 minutes

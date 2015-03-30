@@ -1,0 +1,18 @@
+application: gdn-drudge-checker
+version: 3
+runtime: python27
+api_version: 1
+threadsafe: false
+
+handlers:
+
+################################################################################
+# SEO
+################################################################################
+
+- url: /seo/monitor_drudge
+  script: thetools/seo/monitor_drudge.py
+
+- url: /seo/email_drudge
+  script: thetools/seo/email_drudge.py
+
