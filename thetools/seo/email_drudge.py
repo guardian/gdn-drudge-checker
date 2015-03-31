@@ -8,6 +8,8 @@ from datetime import date, datetime
 from google.appengine.ext import db
 from google.appengine.api import mail
 
+import passwords
+
 print 'Content-Type: text/html; charset=UTF-8'
 print ''
 
